@@ -2,6 +2,10 @@
 # 
 # Another Geeky idea from Sallar (@sallar) & Afshin (@afshinmeh)
 # HAPPY VALENTINE DAY!
+# 
+# ### How to use? ###
+# Run this command on terminal: 
+# bash valentine.bash He She 
 #
 
 txt="$1 & $2"
