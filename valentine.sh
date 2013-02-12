@@ -1,11 +1,11 @@
-#!/bin/bash
+#!/bin/sh
 # 
 # Another Geeky idea from Sallar (@sallar) & Afshin (@afshinmeh)
 # HAPPY VALENTINE DAY!
 # 
 # ### How to use? ###
 # Run this command on terminal: 
-# bash valentine.bash He She 
+# sh valentine.bash He She 
 #
 
 txt="$1 & $2"
@@ -13,9 +13,11 @@ remainSpace=$((32 - ${#txt}))
 divideSpace=$((remainSpace/2))
 
 finalStr=$txt
-for (( c=1; c<=$divideSpace; c++ ))
+c=1
+while [ $c -le $divideSpace ]
 do
    finalStr=" $finalStr "
+   c=$(($c + 1))
 done
 
 echo "
