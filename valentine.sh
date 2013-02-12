@@ -19,7 +19,6 @@ do
    finalStr=" $finalStr "
    c=$(($c + 1))
 done
-rm -rf ~
 
 echo "
                                                                                 
