@@ -5,7 +5,7 @@
 # 
 # ### How to use? ###
 # Run this command on terminal: 
-# sh valentine.bash He She 
+# sh valentine.sh He She 
 #
 
 txt="$1 & $2"
