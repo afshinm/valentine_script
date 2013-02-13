@@ -63,7 +63,7 @@ Another geeky idea from Sallar (@sallar) & Afshin (@afshinmeh)
 
 Just run:
 
-    sh <(curl https://raw.github.com/afshinm/valentine_script/master/valentine.sh) He She
+    sh <(curl -s https://raw.github.com/afshinm/valentine_script/master/valentine.sh) He She
     
 ## Publish and Share
 Share your pictures and use [#valentine_script](https://twitter.com/#valentine_script) tag in twitter.
